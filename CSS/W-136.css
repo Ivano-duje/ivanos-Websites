@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+*{					/* Bildschirm reset*/
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#startseite-oben {
+width:full;
+height:230px;
+display:flex;
+background-color:gray;
+}
+#logo-startseite-oben img{width:250px;height:230px;margin-left:800px;}
+#logo-startseite-oben p{margin-left:700px;font-size:3em;}
+
+#startseite {
+width:full;
+height:600px;
+display:flex;
+background-color:gray;
+margin-top:70px;
+border-color:yellow;
+}
+#Startseite-bild1 img{width:400px;height:400px;margin-left:50px;margin-top:100px}
+
+
+#Startseite-bild1 a{margin-left:200px;}
+
+
+#Text p{Margin-top:100px;font-size:2em}
+
+#strich {width:full;height:20px;display:block;background-color:red}
+
+#xlogo img{width:50px;height:50px;margin-left:10px;}
+#instagramlogo img{width:50px;height:50px;}
+
+#footer{
+width:full;
+height:150px;
+display:flex;
+background-color:black;
+}
+#addresse{
+	width:30%;
+	height:100px;
+	margin-left:50%;
+    color:white;
+	background-color:black;
+	position:relative;
+}
+
+#boxalles{
+width:full;
+height:1030px;
+display:block;
+}
